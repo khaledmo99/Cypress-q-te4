@@ -1,0 +1,27 @@
+{
+    "createNotes": [
+      {
+        "title": "Nouvelle note",
+       
+        "description": "Contenu de la note"
+      },
+      {
+        "title": "Note catégorisée",
+        "description": "Contenu de la note",
+        "category": "Work"
+      }
+    ],
+    "updateNotes": [
+      {
+        "id": "noteId1", 
+        "title": "Note mise à jour",
+        "description": "Contenu mis à jour"
+      }
+    ],
+    "deleteNotes": ["noteId1"],
+    "searchNotes": {
+      "byTitle": "Note de recherche",
+      "byCategory": "Personal"
+    }
+  }
+  
